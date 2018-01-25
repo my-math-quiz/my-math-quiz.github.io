@@ -1,1 +1,44 @@
-<!DOCKTYPE html>
+<!DOCTYPE html>
+<html>
+<title>my math quiz</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+        <a href="https://my-math-quiz.github.io/Geometry/Geometry-page.html" class="w3-bar-item w3-button">Math quizes</a>
+        <a href="https://my-math-quiz.github.io/Chemistry/Chemistry-page.html" class="w3-bar-item w3-button">Chemistry quizes</a>
+        <a href="https://my-math-quiz.github.io/English/Enlish-page.html" class="w3-bar-item w3-button">English quizes</a>
+        <a href="https://my-math-quiz.github.io/spanish/Spanish-page.html" class="w3-bar-item w3-button">Spanish quizes</a>
+        </a>
+        <a href="#" class="w3-bar-item w3-button">About us</a>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-teal">
+        <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
+        <div class="w3-container">
+            <h1>My Math Quiz</h1>
+        </div>
+    </div>
+    <!-- word content -->
+    <div class="w3-container">
+        <p>content</p>
+    </div>
+
+    <script>
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>

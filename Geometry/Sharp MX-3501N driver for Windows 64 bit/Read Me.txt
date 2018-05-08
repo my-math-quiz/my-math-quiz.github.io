@@ -1,0 +1,17 @@
+Package Type: Windows 64 bit Printer Driver Package
+Models: MX-3500N, MX-3501N, MX-4501N
+Driver Types Included in Package: 
+
+WHQL PCL6 Print Driver ver: 06.00.03.1 
+WHQL PS Print Driver ver: 06.00.02.1
+WHQL PPD ver: 1.7.22
+
+WHQL XPS Print Driver for Windows Vista Only! ver: 01.03.37.01
+
+WHQL SPLCc Print Driver ver: 04.00.02.05 
+
+Universal PCL6 Driver ver: 02.00.14.14 
+
+For OS Versions:  7, 8, XP, Vista, Windows Server 2003, Windows Server 2008
+Windows Server 2008 R2, and Windows Server 2012 
+
